@@ -22,10 +22,10 @@ void draw()
 }
 void mousePressed()
 {
-	lightStroke = (int)(Math.random() * 6);
-	int randomColor1 = (int)(Math.random() * 256);
-	int randomColor2 = (int)(Math.random() * 256);
-	int randomColor3 = (int)(Math.random() * 256);
+	lightStroke = (int)(Math.random() * 6) + 1;
+	int randomColor1 = (int)(Math.random() * 236) + 20;
+	int randomColor2 = (int)(Math.random() * 236) + 20;
+	int randomColor3 = (int)(Math.random() * 236) + 20;
 	stroke(randomColor1, randomColor2, randomColor3);
 	startX = (int)(Math.random() * 250) + 25;
 	startY = 0;
